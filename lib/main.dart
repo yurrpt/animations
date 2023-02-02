@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
 
-import 'animated_demo_view.dart';
+import 'example2/example2.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp());
+  runApp(const MyApp());
 }
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: AnimatedDemoView(),
+      home: ExampleTwo(),
     );
   }
 }
