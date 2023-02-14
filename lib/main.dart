@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'example2/example2.dart';
+import 'example3/example3.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Material App',
       debugShowCheckedModeBanner: false,
-      home: ExampleTwo(),
+      home: ExampleThree(),
     );
   }
 }
